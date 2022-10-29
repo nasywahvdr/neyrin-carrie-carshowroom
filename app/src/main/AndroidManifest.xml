@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nasywah.showroom">
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherk"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_form"></activity>
+        <activity android:name=".activity_favo"></activity>
+        <activity android:name=".activity_wel"></activity>
+        <activity android:name=".activity_profil"></activity>
+        <activity android:name=".activity_search"></activity>
+        <activity android:name=".Productdetails"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".activity_page4"></activity>
+        <activity android:name=".activity_page3"></activity>
+        <activity android:name=".activity_page2"></activity>
+        <activity android:name=".activity_splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
